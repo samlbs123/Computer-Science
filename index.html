@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+Body {
+font-family: Calibri, Helvetica, sans-serif;
+background-color: pink;
+}
+button {
+background-color: #4CAF50;
+width: 100%;
+color: orange;
+padding: 15px;
+margin: 10px 0px;
+border: none;
+cursor: pointer;
+}
+form {
+border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=number],input[type=radio],input[type=email],select {
+width: 100%;
+margin: 8px 0;
+padding: 12px 20px;
+display: inline-block;
+border: 2px solid green;
+box-sizing: border-box;
+}
+button:hover {
+opacity: 0.7;
+}
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+margin: 10px 5px;
+}
+.container {
+padding: 25px;
+background-color: lightblue;
+}
+</style>
+</head>
+<body>
+<center> <h1> Student Sign-up </h1> </center>
+<form>
+<div class="container">
+<label>Name : </label>
+<input type="text" placeholder="Enter Name" name="Name" required>
+<label>Age : </label>
+<input type="Number" placeholder="Enter Age" name="Age" required>
+<label>Address : </label>
+<input type="text" placeholder="Enter Address" name="address" required>
+<label>Gender : </label>
+<select name="Gender" id="gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Others">Other</option>
+</select>
+<label>Email Address : </label>
+<input type="email" placeholder="Enter Email Address" name="mail" required>
+<input type="checkbox" checked="checked"> I Accept the terms and conditions.
+<button type="submit">Create Account</button>
+</div>
+</form>
+</body>
+</html>
+
